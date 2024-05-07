@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import './App.css'
+import Header from "./components/header";
+
+import Footer from "./components/footer";
+import Page from "./components/page";
+import { useLocation } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const currentPage = useLocation().pathname;
 
   return (
-    <>
-      <div>
-      </div>
-      <h1>Test</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <div>
+      <Header/>
+      <main>
+        <Page currentPage={currentPage}/>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
-export default App
+export default App;

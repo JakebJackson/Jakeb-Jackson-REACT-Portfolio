@@ -1,9 +1,7 @@
-
-
 function Footer() {
 
     return(
-        1
+        <footer></footer>
     );    
 }
 

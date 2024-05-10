@@ -1,14 +1,14 @@
-import Header from "./components/header";
+import Header from "./components/Header";
 
-import Footer from "./components/footer";
-import Page from "./components/page";
+import Footer from "./components/Footer";
+import Page from "./components/Page";
 import { useLocation } from "react-router-dom";
 
 function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
+    <div className="vh-100 bg-l-blue">
       <Header/>
       <main>
         <Page currentPage={currentPage}/>

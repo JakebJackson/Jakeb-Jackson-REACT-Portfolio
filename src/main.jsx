@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './colours.scss';
+import './index.css';
 
 
 

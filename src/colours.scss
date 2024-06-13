@@ -1,3 +1,4 @@
+
 @import '../node_modules/bootstrap/scss/mixins';
 @import '../node_modules/bootstrap/scss/functions';
 
@@ -16,6 +17,7 @@ $custom-colours: (
 
 $theme-colors: map-merge($theme-colors, $custom-colours);
 
+@import '../node_modules/bootstrap/scss/bootstrap';
 @import "../node_modules/bootstrap/scss/root";
 
 // Optional Bootstrap components here

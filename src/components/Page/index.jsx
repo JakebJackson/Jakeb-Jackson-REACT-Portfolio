@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import PageContent from "./pageContent";
+import PageContent from "../PageContent";
 import { Outlet } from 'react-router-dom';
 
 function Page({ currentPage }) {
@@ -10,7 +10,7 @@ function Page({ currentPage }) {
   }, [currentPage]);
 
   return (
-    <section className="container mt-4 p-5 bg-onyx border border-sky-blue border-4 rounded-5 shadow text-l-blue">
+    <section className="container mt-md-4 p-5 bg-onyx md-border md-rounded-5 shadow">
 
       <PageContent>
         <Outlet/>

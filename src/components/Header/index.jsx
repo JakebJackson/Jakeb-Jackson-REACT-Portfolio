@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { capitalizeFirstLetter } from '../utils/helpers';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Header({ currentPage }) {
   const pages = ['portfolio', 'contact', 'resume'];
@@ -7,7 +7,7 @@ function Header({ currentPage }) {
   return (
     <nav className="navbar p-3 border-bottom border-4 border-sky-blue bg-onyx">
       <div className="container-fluid">
-        <h1 className="text-fawn" href="/">Avalanche Tech</h1>
+        <h1 className="text-fawn" href="/">My Portfolio</h1>
 
         <ul className="nav nav-underline justify-content-end">
           <li className="nav-item" key="about">

@@ -1,11 +1,11 @@
 function About() {
     return (
         <section>
-            <h2 className="text-lilac">About Me</h2>
-            <hr></hr>
+            <h1 className="text-success text-center">About Me</h1>
+            <hr className="text-light"></hr>
             <div className="mb-3 w-100 d-flex flex-column flex-md-row">
                 <div className="flex-grow-1 d-flex flex-column justify-content-between">
-                    <p className="text-fawn">Hi, my name is Jake.
+                    <p className="text-white">Hi, my name is Jake.
                         <br /><br />I am an ex-soldier who decided to learn how to code, I started by learning very basic Java and C# through self-practice and YouTube tutorials. I found the problem solving to be very rewarding and always felt an extreme sense of accomplishment when I finished a project so I decided to take it a step further and sign up to the Monash Full-Stack Web Development bootcamp.</p>
                 </div>
                 <div className="d-flex align-items-stretch w-100 w-md-75 h-auto h-md-75 ms-md-3">

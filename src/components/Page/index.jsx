@@ -10,7 +10,7 @@ function Page({ currentPage }) {
   }, [currentPage]);
 
   return (
-    <section className="container mt-md-4 p-5 bg-onyx md-border md-rounded-5 shadow">
+    <section className="container p-5 bg-onyx md-border shadow w-md-50 vh-100">
 
       <PageContent>
         <Outlet/>

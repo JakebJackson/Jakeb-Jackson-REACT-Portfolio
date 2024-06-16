@@ -8,7 +8,7 @@ function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div className="vh-100 bg-l-blue">
+    <div className="vh-100 bg-onyx">
       <Header/>
       <main>
         <Page currentPage={currentPage}/>

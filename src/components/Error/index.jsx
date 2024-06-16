@@ -1,6 +1,6 @@
 function ErrorPage() {
     return (
-        <div></div>
+        <div className="vh-100"></div>
     );
 }
 

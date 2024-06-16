@@ -5,7 +5,7 @@ function Header({ currentPage }) {
   const pages = ['portfolio', 'contact', 'resume'];
 
   return (
-    <nav className="navbar py-3 shadow bg-onyx">
+    <nav className="navbar py-3 shadow bg-onyx sticky-top">
       <div className="container-fluid w-md-50">
         <h1 className="text-light" href="/">My Portfolio</h1>
 

@@ -8,9 +8,9 @@ function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div className="vh-100 bg-onyx">
+    <div className="">
       <Header/>
-      <main>
+      <main className="d-flex flex-column h-100 bg-onyx">
         <Page currentPage={currentPage}/>
       </main>
       <Footer />

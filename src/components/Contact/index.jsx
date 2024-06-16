@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <section></section>
+        <section className="vh-100"></section>
     );
 }
 

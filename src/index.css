@@ -5,14 +5,12 @@
 }
 
 .hover-ring {
-  filter: grayscale(100%);
-  transition: box-shadow 1s ease, filter 1s ease;
+  transition: box-shadow 1s ease;
 }
 
 .hover-ring:hover {
   box-shadow: 0 0 var(--bs-hover-ring-blur) var(--bs-hover-ring-color);
-  filter: grayscale(0%);
-  transition: box-shadow 1s ease, filter 1s ease;
+  transition: box-shadow 1s ease;
 }
 
 .w-md-50 {

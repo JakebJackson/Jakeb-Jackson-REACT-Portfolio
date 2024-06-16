@@ -65,19 +65,19 @@ No self tests exist for this application.
 
 ## Usage
     
-Navigate to the [deployed application]( ), a select few of my prior projects will be displayed, clicking on them will take you to the respective application's repository.
+Navigate to the [deployed application](https://jakebjackson.github.io/Jakeb-Jackson-REACT-Portfolio/), a select few of my prior projects will be displayed, clicking on them will take you to the respective application's repository.
 
 ## GitHub repository
 
-The GitHub repository can be found [here.]()
+The GitHub repository can be found [here.](https://github.com/JakebJackson/Jakeb-Jackson-REACT-Portfolio)
 
 ## Deployment
 
-The deployed web application can be found [here.]( )
+The deployed web application can be found [here.](https://jakebjackson.github.io/Jakeb-Jackson-REACT-Portfolio/)
 
 ## Screenshot
 
-![Screenshot of deployed website](/src/assets/images/DeployedTitanTech.png)
+![Screenshot of deployed website](/public/images/Portfolio-REACT-Screenshot.png)
 
 ## License
 

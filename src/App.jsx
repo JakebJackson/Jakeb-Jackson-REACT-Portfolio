@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-
+import { capitalizeFirstLetter } from "./utils/helpers";
 import Footer from "./components/Footer";
 import Page from "./components/Page";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  const currentPage = useLocation().pathname;
+  const currentPage = capitalizeFirstLetter(useLocation().pathname);
 
   return (
     <div className="">

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 function Portfolio() {
   return (
     <section className="h-100">
-      <h1 className="mb-4 text-success text-center">My Projects:</h1>
-      <hr className="border-white border-2" />
+      <h1 className="mb-4 text-success text-center">My Projects</h1>
+      <hr className="border-light border-2" />
       <div className="card border border-1 rounded-4 mb-3 bg-onyx shadow">
         <Link target="_blank" to="https://github.com/JakebJackson/Avalanche-Tech" className="hover-ring text-decoration-none border-4 rounded-4 d-flex md-flex-row"
           style={{

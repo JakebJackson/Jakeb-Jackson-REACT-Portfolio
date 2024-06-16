@@ -1,8 +1,8 @@
 function About() {
     return (
         <section className="vh-100">
-            <h1 className="text-success text-center">About Me</h1>
-            <hr className="text-light"></hr>
+            <h1 className="text-success text-center mb-4">About Me</h1>
+            <hr className="text-light border-2"></hr>
             <div className="mb-3 w-100 d-flex flex-column flex-md-row">
                 <div className="flex-grow-1 d-flex flex-column justify-content-between">
                     <p className="text-white">Hi, my name is Jake.

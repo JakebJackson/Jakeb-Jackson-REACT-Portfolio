@@ -14,7 +14,7 @@ The application is single-page website designed and built with react and bootstr
 - [Acceptance Criteria](#acceptance-criteria)
 - [Testing](#testing)
 - [Usage](#usage)
-- [Screenshots/Video](<#screenshots--video-of-completed-challenge>)
+- [Screenshot](<#screenshot>)
 - [License](#license)
 - [Credits](#credits)
 - [Questions / How to Contribute](#questions--how-to-contribute)
@@ -75,9 +75,9 @@ The GitHub repository can be found [here.]()
 
 The deployed web application can be found [here.]( )
 
-## Screenshots / Video of Completed Challenge
+## Screenshot
 
-![Deployed Application](/src/assets/images/DeployedTitanTech.png)
+![Screenshot of deployed website](/src/assets/images/DeployedTitanTech.png)
 
 ## License
 

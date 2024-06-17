@@ -65,7 +65,7 @@ No self tests exist for this application.
 
 ## Usage
     
-Navigate to the [deployed application](https://jakebjackson.github.io/Jakeb-Jackson-REACT-Portfolio/), a select few of my prior projects will be displayed, clicking on them will take you to the respective application's repository.
+Navigate to the [deployed application](https://jakebjacksonportfolio.netlify.app), a select few of my prior projects will be displayed, clicking on them will take you to the respective application's repository.
 
 ## GitHub repository
 
@@ -73,7 +73,7 @@ The GitHub repository can be found [here.](https://github.com/JakebJackson/Jakeb
 
 ## Deployment
 
-The deployed web application can be found [here.](https://jakebjackson.github.io/Jakeb-Jackson-REACT-Portfolio/)
+The deployed web application can be found [here.](https://jakebjacksonportfolio.netlify.app)
 
 ## Screenshot
 
